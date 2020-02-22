@@ -4,15 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <div id="choices"></div>
-    <div id="start-quiz"></div>
-    <button id="submit">Get Results</button>
-    <div id="feedback"></div>
-    <div id="final-score"></div>
-    <div id="question-title"></div>
+    <div class="container">
+      <button id="start-quiz">Start Quiz</button>
+      <input
+        type="text"
+        id="initials-input"
+        placeholder="Enter your initials."
+        value="AA"
+      />
+      <div id="question-title"></div>
+      <div id="choices"></div>
+      <div id="feedback"></div>
+      <div id="final-score"></div>
+      <div id="highscores-display"></div>
+    </div>
+    <div id="Countdown-number">15</div>
+    <button id="submit">High Scores</button>
     <script src="script2.js"></script>
   </body>
 </html>

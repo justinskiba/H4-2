@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(239, 88%, 48%);
+  color: #fff;
+  display: flex;
+  font-family: "Muli", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+.container {
+  background-color: hsl(152, 65%, 32%);
+  box-shadow: 0px 2px 10px rgba(18, 163, 55, 0.2);
+  padding: 20px;
+  width: 500px;
+  max-width: 100%;
+}
+#submit {
+  display: none;
+}
+#highscores-display {
+  background-color: black;
+}
